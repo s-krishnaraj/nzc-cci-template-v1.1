@@ -82,7 +82,7 @@ flows:
             6: # opens up the record type mappings! Settings > Net Zero > Record Type Configurations
                 task: dx
                 options:
-                    command: sfdx force:org:open 
+                    command: force:org:open 
                     extra: -p lightning/setup/BldgEnrgyIntensityCnfg/home
         
     # cant auotmate vehicles and blgs until the mappings are api enabled :/
